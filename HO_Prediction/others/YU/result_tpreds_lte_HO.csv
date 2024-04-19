@@ -1,1 +1,0 @@
-t_seq,t_pred,lr,max_dep,n_esti,subsample,colsample_bytree,reg_alpha,gamma,auc,aucpr,p,r,f1
