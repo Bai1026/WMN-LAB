@@ -1,14 +1,15 @@
-# WMN-LAB# WMN-LAB
-## How to open notebook
-A. Use VSCode Remote Developement (Recommended)
+# WMN-LAB
+## How to get started
+A. Enter the [**HO_Prediction**](https://github.com/Bai1026/WMN-LAB/tree/main/HO_Prediction) folder
 
 B. Use jupyter notebook browser
 Once you enter the server:
-1. nvidai-smi to check whether others are using.
-2. conda activate sheng-ru
-3. cd Documents/sheng-ru
-4. /home/wmnlab/anaconda3/envs/sheng-ru/bin/jupyter notebook --no-browse
-5. Click the link in the terminal output and you will open jupyter notebook.
+1. ```nvidai-smi``` or ```nvitop -m``` to check whether others are using.
+2. create a conda environment
+3. ```pip install -r requirements.txt```
+4. conda activate ```your environment```
+5. cd HO_Prediction
+6. ```jupyter notebook``` on your local host or ```jupyter notebook --no-browser``` on your server.
 
 ## Data Create
 1. ssh Database Server
